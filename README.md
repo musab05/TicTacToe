@@ -1,80 +1,30 @@
-# ChatApp
+# Infinite Tic Tac Toe
 
-Welcome to the ChatApp project! This is a simple chat application built entirely in Python. It's a great way to learn about networking and real-time communication in Python.
-
-## Table of Contents
-
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [License](#license)
+A dynamic and fun twist on the classic Tic Tac Toe game! Players can make moves beyond the traditional game rules, with a limited number of moves allowed on the board at any time.
 
 ## Features
 
-- Real-time messaging between users.
-- Simple and easy-to-understand code.
-- Learn the basics of networking in Python.
+- **Dynamic Gameplay**: Players can only keep their last 3 moves on the board, allowing for an evolving strategy.
+- **Responsive Design**: The game adapts to any screen size and centers beautifully.
+- **Stylish UI**: A clean and modern interface with interactive elements.
+
+## How to Play
+
+1. Open the `index.html` file in a web browser.
+2. Players take turns clicking on cells to place their mark (`X` or `O`).
+3. Each player can only have their most recent 3 moves on the board.
+4. The game checks for a winner after every move, following classic Tic Tac Toe rules:
+   - Horizontal, vertical, or diagonal rows of 3 matching symbols.
+5. The first player to align 3 of their symbols wins the game.
 
 ## Technologies Used
 
-- **Python**: The entire project is written in Python.
+- **HTML5**: For the structure of the game.
+- **CSS3**: For styling and responsive layout.
+- **Vanilla JavaScript**: For game logic and interactivity.
 
 ## Installation
 
-1. **Clone the repository**:
-    ```sh
-    git clone https://github.com/musab05/ChatApp.git
-    ```
-
-2. **Navigate to the project directory**:
-    ```sh
-    cd ChatApp
-    ```
-
-3. **Install the required Python packages**:
-    ```sh
-    pip install -r requirements.txt
-    ```
-   *Note: Ensure you have Python and pip installed on your system.*
-
-## Usage
-
-1. **Run the server**:
-    ```sh
-    python server.py
-    ```
-
-2. **Run the client**:
-    ```sh
-    python client.py
-    ```
-
-3. **Start chatting**:
-    - Open multiple terminal windows or command prompts.
-    - Run the client in each terminal to simulate different users.
-    - Start sending messages and see them appear in real-time!
-
-## Contributing
-
-Contributions are welcome! To contribute, please follow these steps:
-
-1. **Fork the repository**.
-2. **Create a new branch**:
-    ```sh
-    git checkout -b feature/your-feature-name
-    ```
-3. **Make your changes** and commit them:
-    ```sh
-    git commit -m 'Add your feature'
-    ```
-4. **Push to the branch**:
-    ```sh
-    git push origin feature/your-feature-name
-    ```
-5. **Open a pull request**.
-
-## License
-
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/infinite-tic-tac-toe.git
